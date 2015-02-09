@@ -43,7 +43,7 @@ a { color: #666; text-decoration: none;}
 }
 .nav > li > div p { color: #666; }
 .nav > li > div.right { right: 0; left: auto }
-.container-1, .container-2, .container-3, .container-4 { font-size: 80%; }
+.container-1, .container-2, .container-3, .container-4 { font-size: 60%; }
 
 
 /* COLUMNS */
