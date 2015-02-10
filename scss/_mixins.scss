@@ -1,0 +1,6 @@
+@mixin a-hover ($text-color, $hover-color){
+  color: $text-color;
+  &:hover{
+    color: $med;
+  }
+ }
