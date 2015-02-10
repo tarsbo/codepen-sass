@@ -1,11 +1,20 @@
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; padding: 0; margin: 0;}
 
 
-body { font-family: "PT Sans", sans-serif; background: #f5f5f5; font-size: 100%;}
-a { color: #666; text-decoration: none;}
+body { 
+font-family: "PT Sans", 
+sans-serif; 
+background: #c6f2e8; 
+font-size: 100%;
+}
+
+a { 
+color: #666; 
+text-decoration: none;
+}
 
 .nav {
-	background: #666;
+	background: #0f9d80;
 	border-radius: 3px;
 	width: 960px;
 	margin: 20px auto;
@@ -21,11 +30,11 @@ a { color: #666; text-decoration: none;}
 	text-decoration: none;
 	line-height: 43px;
 	padding: 0 20px; 
-	border-right: 1px solid #777;
-	border-left: 1px solid #555;
+	border-right: 1px solid #fff;
+	border-left: 1px solid #fff;
 	height: 43px;
 }
-.nav > li:hover > a { background: #555;	border-right: 1px solid #666; }
+.nav > li:hover > a { background: #0d5645;	border-right: 1px solid #fff; }
 .nav > li:first-child > a { border-left: 0; }
 .nav > li:last-child > a { border-right: 0; }
 .nav > li:hover > div { display: block; }
@@ -43,7 +52,7 @@ a { color: #666; text-decoration: none;}
 }
 .nav > li > div p { color: #666; }
 .nav > li > div.right { right: 0; left: auto }
-.container-1, .container-2, .container-3, .container-4 { font-size: 60%; }
+.container-1, .container-2, .container-3, .container-4 { font-size: 80%; }
 
 
 /* COLUMNS */
